@@ -8,10 +8,10 @@ This generation method first divides the specified location into a grid area of 
 
 # Agent:
 ## 1. enemy1：
-Enemy 1 is a fixed-point cruise implemented using the waypoint algorithm, which will patrol four points and wait two seconds to stop at each point. And it will track the player when the distance between the player and it is less than 10.
+Enemy 1 is a fixed-point cruise implemented using the waypoint algorithm, which will patrol four points and wait two seconds to stop at each point. And it will track the player when the distance between the player and it is less than 30.
 
 ## 2. enemy2：
-Enemy 2 is written using a behavioural tree algorithm, which patrols randomly at a fixed location and then tracks the player when the player's location and it are less than 10.
+Enemy 2 is written using a behavioural tree algorithm, which patrols randomly at a fixed location and then tracks the player when the player's location and it are less than 30.
 
 
 # Player:
@@ -24,9 +24,12 @@ The camera's view moves more with the room, and if the player goes to another ro
 The room is automatically generated when you enter the scene. If you want to change the map, you can press the space key.
 
 # Video URL：
+https://youtu.be/sNpvMoLyEsE
 
 # Reference:
-https://gamedevelopment.tutsplus.com/tutorials/generate-random-cave-levels-using-cellular-automata--gamedev-9664
+1. https://gamedevelopment.tutsplus.com/tutorials/generate-random-cave-levels-using-cellular-automata--gamedev-9664
+2. https://www.youtube.com/watch?v=aVf3awPrVPE
+
 
 
 
