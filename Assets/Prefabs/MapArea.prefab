@@ -106,6 +106,7 @@ MonoBehaviour:
   wall: {fileID: 733661815536327120, guid: 877963ff7884a427c9c560f9bb65a937, type: 3}
   enemy1: {fileID: 430771786463093866, guid: 7a62a7371b0c944c9bd54aa4d51b864a, type: 3}
   enemy2: {fileID: 1701873603452317121, guid: fb94775ffb0b54d89a7965e2c1cfe8aa, type: 3}
+  enemyNumber: 20
 --- !u!1 &3524695899968031533
 GameObject:
   m_ObjectHideFlags: 0

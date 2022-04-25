@@ -23,6 +23,7 @@ public class MapGanerator : MonoBehaviour
     public GameObject wall;
     public GameObject enemy1;
     public GameObject enemy2;
+    public int enemyNumber;
     private void Awake() {
         GenerateMap();
     }
@@ -104,7 +105,7 @@ public class MapGanerator : MonoBehaviour
     }
 
     private void PlaceGird(Vector2 mapPosition){
-        int enemyNumber = 6;
+        
         int enemyGene = 0;
         for (int x = 0; x < width; x ++) {
 			for (int y = 0; y < height; y ++) {
