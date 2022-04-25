@@ -28,7 +28,7 @@ https://youtu.be/sNpvMoLyEsE
 
 # Reference:
 1. https://gamedevelopment.tutsplus.com/tutorials/generate-random-cave-levels-using-cellular-automata--gamedev-9664
-2. https://www.youtube.com/watch?v=aVf3awPrVPE
+2. https://hub.packtpub.com/building-your-own-basic-behavior-tree-tutorial/
 3. https://www.youtube.com/watch?v=v7yyZZjF1z4&t=1093s
 
 
