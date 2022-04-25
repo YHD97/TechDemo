@@ -298,7 +298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: 0
   roomPrefab: {fileID: 4366443865743848692, guid: 8ed3094264e4747f593e496f680dec42, type: 3}
-  roomNumber: 10
+  roomNumber: 15
   startColor: {r: 0.9528302, g: 0.9033909, b: 0.9116308, a: 1}
   endColor: {r: 0.89444643, g: 0.8998853, b: 0.9433962, a: 1}
   roomLayer:

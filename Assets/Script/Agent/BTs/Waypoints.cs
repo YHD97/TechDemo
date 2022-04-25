@@ -21,7 +21,7 @@ public class Waypoints : MonoBehaviour
         Player = GameObject.FindWithTag("Player").transform;
         Vector3 displacement = Player.position -transform.position;
         displacement = displacement.normalized;
-        if (Vector2.Distance (Player.position, transform.position) < 10.0f) {
+        if (Vector2.Distance (Player.position, transform.position) < 30.0f) {
             transform.position += (displacement * Time.deltaTime*speed);
                         
         }else{
