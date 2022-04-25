@@ -13,6 +13,9 @@ public class RoomGenerator : MonoBehaviour
     public Color startColor,endColor;
     public LayerMask roomLayer;
     private GameObject endRoom;
+
+    public GameObject player;
+    public Transform generaorPlayerPoint;
     
 
     public int maxSetp;
@@ -33,6 +36,7 @@ public class RoomGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Instantiate(player,generaorPlayerPoint.position,Quaternion.identity);
 
         for(int i =0; i<roomNumber;i++){
             rooms.Add(Instantiate(roomPrefab,generaorPoint.position,Quaternion.identity).GetComponent<Room>());

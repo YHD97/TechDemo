@@ -21,6 +21,8 @@ public class MapGanerator : MonoBehaviour
 
     public GameObject stone;
     public GameObject wall;
+    public GameObject enemy1;
+    public GameObject enemy2;
     private void Awake() {
         GenerateMap();
     }
@@ -87,7 +89,6 @@ public class MapGanerator : MonoBehaviour
                             wallNeighbors++;
                         }
                     }
-                    
                 }
                 else
                 {
@@ -103,15 +104,29 @@ public class MapGanerator : MonoBehaviour
     }
 
     private void PlaceGird(Vector2 mapPosition){
-
+        int enemyNumber = 6;
+        int enemyGene = 0;
         for (int x = 0; x < width; x ++) {
 			for (int y = 0; y < height; y ++) {
                 if(cavePoints[x,y] == 1){
                     Instantiate(stone,new Vector2(mapPosition.x+ x,mapPosition.y+y),Quaternion.identity);
                 }
+                else if(enemyNumber !=0 && cavePoints[x,y] == 0 && enemyGene % 3 == 0){
+                    if(x>40 && y>40){
+                        if (Random.Range(0f,2f) <=0.1 ){
+                        Instantiate(enemy1,new Vector2(mapPosition.x+ x,mapPosition.y+y),Quaternion.identity);
+                        enemyNumber--;
+                        }else if(Random.Range(0f,2f) >=1.9){
+                            Instantiate(enemy2,new Vector2(mapPosition.x+ x,mapPosition.y+y),Quaternion.identity);
+                            enemyNumber--;
+                        }
+                    }
+                    
+                }
                 
-				
+			
 			}
+        enemyGene++;
 		}
     }
 }

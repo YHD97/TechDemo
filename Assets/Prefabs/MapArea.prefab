@@ -96,13 +96,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08dd78893bb84466eaa41e9efb3bec00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 150
-  height: 90
+  width: 140
+  height: 60
   mapPosition: {fileID: 313208749298547967}
   smoothingCycle: 5
   randomFillPercent: 45
   threshold: 4
   stone: {fileID: 7785488224443838318, guid: c508d10b0d76f45e696f8bfdd4cd36a6, type: 3}
+  wall: {fileID: 733661815536327120, guid: 877963ff7884a427c9c560f9bb65a937, type: 3}
+  enemy1: {fileID: 430771786463093866, guid: 7a62a7371b0c944c9bd54aa4d51b864a, type: 3}
+  enemy2: {fileID: 1701873603452317121, guid: fb94775ffb0b54d89a7965e2c1cfe8aa, type: 3}
 --- !u!1 &3524695899968031533
 GameObject:
   m_ObjectHideFlags: 0

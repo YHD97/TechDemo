@@ -93,7 +93,6 @@ GameObject:
   - component: {fileID: 459456334441742510}
   - component: {fileID: 4727681873250697850}
   - component: {fileID: 1207180158477318502}
-  - component: {fileID: 829689731016470402}
   m_Layer: 0
   m_Name: right
   m_TagString: Door
@@ -192,18 +191,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &829689731016470402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3319010346488948217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e69eb8ffc3ae40878d3fb7dc711f91f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3408958197745979233
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,11 +762,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 313208749298547967, guid: a85857307a713405b8d8acb831b0063e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.455
+      value: -0.5016
       objectReference: {fileID: 0}
     - target: {fileID: 313208749298547967, guid: a85857307a713405b8d8acb831b0063e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.393
+      value: -0.5098
       objectReference: {fileID: 0}
     - target: {fileID: 2549041361806142992, guid: a85857307a713405b8d8acb831b0063e, type: 3}
       propertyPath: m_Name
@@ -791,19 +778,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5529555659655097402, guid: a85857307a713405b8d8acb831b0063e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 15.750438
+      value: 13.955019
       objectReference: {fileID: 0}
     - target: {fileID: 5529555659655097402, guid: a85857307a713405b8d8acb831b0063e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 7.4047685
+      value: 5.9117084
       objectReference: {fileID: 0}
     - target: {fileID: 5529555659655097402, guid: a85857307a713405b8d8acb831b0063e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.19409
+      value: -0.00131
       objectReference: {fileID: 0}
     - target: {fileID: 5529555659655097402, guid: a85857307a713405b8d8acb831b0063e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.09704
+      value: 0.01462
       objectReference: {fileID: 0}
     - target: {fileID: 5529555659655097402, guid: a85857307a713405b8d8acb831b0063e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -843,11 +830,23 @@ PrefabInstance:
       objectReference: {fileID: 733661815536327120, guid: 877963ff7884a427c9c560f9bb65a937, type: 3}
     - target: {fileID: 7671718278470570292, guid: a85857307a713405b8d8acb831b0063e, type: 3}
       propertyPath: width
-      value: 160
+      value: 140
       objectReference: {fileID: 0}
     - target: {fileID: 7671718278470570292, guid: a85857307a713405b8d8acb831b0063e, type: 3}
       propertyPath: height
-      value: 80
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 7671718278470570292, guid: a85857307a713405b8d8acb831b0063e, type: 3}
+      propertyPath: threshold
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7671718278470570292, guid: a85857307a713405b8d8acb831b0063e, type: 3}
+      propertyPath: smoothingCycle
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7671718278470570292, guid: a85857307a713405b8d8acb831b0063e, type: 3}
+      propertyPath: randomFillPercent
+      value: 45
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a85857307a713405b8d8acb831b0063e, type: 3}
